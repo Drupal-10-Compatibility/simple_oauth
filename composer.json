@@ -114,7 +114,7 @@
         },
         "patches": {
             "drupal/simple_oauth": {
-                "Patching jsonSerializable typcasting issue": "patches/patch-jsonSerializable-to-typecast-returnvalue-as-mixed.patch"
+                "Issue #3317444: Deprecation notice related to ScopeEntity::jsonSerialize()": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/69.patch"
             }
         }
     },
