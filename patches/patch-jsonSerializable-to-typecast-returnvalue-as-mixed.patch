@@ -1,0 +1,13 @@
+diff --git a/src/Entities/ScopeEntity.php b/src/Entities/ScopeEntity.php
+index dbea100..14502c1 100644
+--- a/src/Entities/ScopeEntity.php
++++ b/src/Entities/ScopeEntity.php
+@@ -36,7 +36,7 @@ class ScopeEntity implements ScopeEntityInterface, CacheableDependencyInterface
+   /**
+    * {@inheritdoc}
+    */
+-  public function jsonSerialize() {
++  public function jsonSerialize(): mixed {
+     return $this->getIdentifier();
+   }
+ 
